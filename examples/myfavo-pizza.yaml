@@ -1,0 +1,11 @@
+apiVersion: mykubernetes.acme.org/v1beta2
+kind: Pizza
+metadata:
+  name: surfandturf
+spec:
+  toppings:
+  - mozzarella 
+  - pepperoni 
+  - tuna
+  - mushrooms 
+  sauce: bbq
