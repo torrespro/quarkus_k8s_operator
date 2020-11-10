@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: statics_operator
+  description: Statics Operator
+  tags:
+    - java
+spec:
+  type: operator
+  lifecycle: experimental
+  owner: andres@backbase.com
